@@ -5,20 +5,66 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tree UI without JS</title>
-  <style>
-    input[type="checkbox"]{
-      display: none;
-    }
-    input[type="checkbox"]:checked~ul{
-      display: none;
-    }
-  </style>
+  <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
   <input type="checkbox" id="root">
   <label for="root">ROOT</label>
   <ul>
-    <li>node1</li>
+    <li>
+      <input type="checkbox" id="node1">
+      <label for="node1">node1</label>
+      <ul>
+        <li>
+          <input type="checkbox" id="node1.1">
+          <label for="node1.1">node1.1</label>
+        </li>
+        <li>
+          <input type="checkbox" id="node1.2">
+          <label for="node1.2">node1.2</label>
+        </li>
+        <li>
+          <input type="checkbox" id="node1.3">
+          <label for="node1.3">node1.3</label>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <input type="checkbox" id="node2">
+      <label for="node2">node2</label>
+      <ul>
+        <li>
+          <input type="checkbox" id="node2.1">
+          <label for="node2.1">node2.1</label>
+        </li>
+        <li>
+          <input type="checkbox" id="node2.2">
+          <label for="node2.2">node2.2</label>
+        </li>
+        <li>
+          <input type="checkbox" id="node2.3">
+          <label for="node2.3">node2.3</label>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <input type="checkbox" id="node3">
+      <label for="node3">node3</label>
+      <ul>
+        <li>
+          <input type="checkbox" id="node3.1">
+          <label for="node3.1">node3.1</label>
+        </li>
+        <li>
+          <input type="checkbox" id="node3.2">
+          <label for="node3.2">node3.2</label>
+        </li>
+        <li>
+          <input type="checkbox" id="node3.3">
+          <label for="node3.3">node3.3</label>
+        </li>
+      </ul>
+    </li>
   </ul>
 </body>
 </html>
