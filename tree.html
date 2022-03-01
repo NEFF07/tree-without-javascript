@@ -6,64 +6,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tree UI without JS</title>
   <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="./src/tree_fontello/css/fontello.css">
 </head>
 <body>
-  <input type="checkbox" id="root">
-  <label for="root">ROOT</label>
-  <ul>
+  <ul class="tree">
     <li>
-      <input type="checkbox" id="node1">
-      <label for="node1">node1</label>
+      <input type="checkbox" id="root">
+      <label for="root">Favorite Chapion</label>
       <ul>
         <li>
-          <input type="checkbox" id="node1.1">
-          <label for="node1.1">node1.1</label>
+          <input type="checkbox" id="node1">
+          <label for="node1">Syndra</label>
+          <ul>
+            <li>
+              <a href="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Syndra_1.jpg">Picture</a>
+            </li>
+            <li>
+              <input type="checkbox" id="node1.2">
+              <label for="node1.2">Skills</label>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=NafLTraDdms">Youtube Guide</a>
+            </li>
+          </ul>
         </li>
         <li>
-          <input type="checkbox" id="node1.2">
-          <label for="node1.2">node1.2</label>
+          <input type="checkbox" id="node2">
+          <label for="node2">Zoe</label>
+          <ul>
+            <li>
+              <a href="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zoe_1.jpg">Picture</a>
+            </li>
+            <li>
+              <input type="checkbox" id="node2.2">
+              <label for="node2.2">Skills</label>
+            </li>
+            <li>
+              <input type="checkbox" id="node2.3">
+              <label for="node2.3">Youtube Guide</label>
+            </li>
+          </ul>
         </li>
         <li>
-          <input type="checkbox" id="node1.3">
-          <label for="node1.3">node1.3</label>
+          <input type="checkbox" id="node3">
+          <label for="node3">Lee Sin</label>
+          <ul>
+            <li>
+              <a href="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/LeeSin_0.jpg">Picture</a>
+            </li>
+            <li>
+              <input type="checkbox" id="node3.2">
+              <label for="node3.2">Skills</label>
+            </li>
+            <li>
+              <input type="checkbox" id="node3.3">
+              <label for="node3.3">Youtube Guide</label>
+            </li>
+          </ul>
         </li>
-      </ul>
-    </li>
-    <li>
-      <input type="checkbox" id="node2">
-      <label for="node2">node2</label>
-      <ul>
-        <li>
-          <input type="checkbox" id="node2.1">
-          <label for="node2.1">node2.1</label>
-        </li>
-        <li>
-          <input type="checkbox" id="node2.2">
-          <label for="node2.2">node2.2</label>
-        </li>
-        <li>
-          <input type="checkbox" id="node2.3">
-          <label for="node2.3">node2.3</label>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <input type="checkbox" id="node3">
-      <label for="node3">node3</label>
-      <ul>
-        <li>
-          <input type="checkbox" id="node3.1">
-          <label for="node3.1">node3.1</label>
-        </li>
-        <li>
-          <input type="checkbox" id="node3.2">
-          <label for="node3.2">node3.2</label>
-        </li>
-        <li>
-          <input type="checkbox" id="node3.3">
-          <label for="node3.3">node3.3</label>
-        </li>
-      </ul>
+      </ul>    
     </li>
   </ul>
 </body>
